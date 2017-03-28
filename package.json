@@ -1,0 +1,8 @@
+{
+  "name": "nasa-experiments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:brunopulis/nasa-experiments.git",
+  "author": "Bruno Pulis <bruno.pulis@gmail.com>",
+  "license": "MIT"
+}
