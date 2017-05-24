@@ -1,0 +1,14 @@
+{
+	"name": "nasa-experiments",
+	"exportDir": "dist",
+	"minify": true,
+	"compile": true,
+	"exclusions": [
+		{
+			"path": "node_modules",
+			"action": "exclude",
+			"type": "dir"
+		}
+	],
+	"port": 56078
+}
