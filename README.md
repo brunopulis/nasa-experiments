@@ -12,20 +12,20 @@ I using this enviroment
 * PUG 
 * Sass
 
-## Build Setup
+## Installing Pingy
 
-``` bash
-# install dependencies
-npm install
-```
-```
-# serve with hot reload at localhost:56078
-npm run dev
-```
-```
-# build for production with minification
-npm run build
-```
+Run this command
+
+``` npm install -g @pingy/cli ```
+
+## Installing dependencies 
+
+``` npm install or npm i ```
+
+## Start the app
+
+``` npm start ```
+
 
 ## License
 
