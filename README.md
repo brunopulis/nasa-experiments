@@ -1,6 +1,16 @@
 # Nasa Experiments
 
-> Example to Connect Nasa API Apod
+Example to Connect Nasa API Apod.
+
+## Enviroment
+
+I using this enviroment
+
+* Pingy
+* Babel 
+* Webpack
+* PUG 
+* Sass
 
 ## Build Setup
 
