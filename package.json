@@ -8,7 +8,6 @@
     "start": "webpack --progress && webpack-dev-server -d --hot --config webpack.config.js --watch --progress",
     "production": "NODE_ENV=production webpack --progress"
   },
-  "keywords": [nasa, api, reactjs, axios],
   "author": "Bruno Pulis <bruno.pulis@gmail.com>",
   "license": "ISC",
   "devDependencies": {
