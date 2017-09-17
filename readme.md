@@ -1,21 +1,34 @@
-# Chapter 5!
+# Nasa Experiments
 
-https://medium.com/@wesharehoodies/simple-beginner-guide-for-webpack-2-0-from-scratch-part-v-495dba627718
+Simple example using ReactJS with axios
 
-## How to start
+## Enviroment
 
-```bash
-npm install
-```
+I using this enviroment
 
-```
-npm run start
-```
+* Babel
+* Webpack
+* ReactJS
+* Axios
 
-```
-npm run production
-```
+## Clone the repository
 
-```
-npm run build
-```
+Run this command
+
+``` git clone git@github.com:brunopulis/nasa-experiments.git ```
+
+## Installing dependencies
+
+``` npm install or npm i ```
+
+## Start the app
+
+``` npm run start ```
+
+
+Enjoy :smile:
+
+
+## License
+
+ [GPL](./LICENSE)

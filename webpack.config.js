@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const webpack = require('webpack');
 const path = require('path');
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');
@@ -14,6 +15,24 @@ let config = {
     extensions: ['.js', '.jsx', '.json', '.scss', '.css', '.jpeg', '.jpg', '.gif', '.png'],
     alias: {
       images: path.resolve(__dirname, 'src/assets/images')
+=======
+const webpack = require('webpack'); 
+const path = require('path'); 
+const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin'); 
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin'); 
+const OptimizeCSSAssets = require('optimize-css-assets-webpack-plugin'); 
+
+let config = { 
+  entry: './src/index.js', 
+  output: { 
+    path: path.resolve(__dirname, 'public'), 
+    filename: 'output.js' 
+  },
+  resolve: { // These options change how modules are resolved
+    extensions: ['.js', '.jsx', '.json', '.scss', '.css', '.jpeg', '.jpg', '.gif', '.png'], // Automatically resolve certain extensions
+    alias: { // Create aliases
+      images: path.resolve(__dirname, 'src/assets/images')  // src/assets/images alias
+>>>>>>> 15da1a5ec649e869e88952db04b77adba618e6b1
     }
   },
   module: {
@@ -81,4 +100,8 @@ if (process.env.NODE_ENV === 'production') { // if we're in production mode, her
     new webpack.optimize.UglifyJsPlugin(), // call the uglify plugin
     new OptimizeCSSAssets() // call the css optimizer (minfication)
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 15da1a5ec649e869e88952db04b77adba618e6b1
