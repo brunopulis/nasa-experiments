@@ -1,22 +1,12 @@
 # Nasa Experiments
 
-Example to Connect Nasa API Apod.
+Example to Connect Nasa API.
 
-## Enviroment
+## How to use
 
-I using this enviroment
+To run locally this project clone this repository with:
 
-* Pingy
-* Babel 
-* Webpack
-* PUG 
-* Sass
-
-## Installing Pingy
-
-Run this command
-
-``` npm install -g @pingy/cli ```
+``` git clone git@github.com:brunopulis/nasa-experiments.git ```
 
 ## Installing dependencies 
 
@@ -24,7 +14,7 @@ Run this command
 
 ## Start the app
 
-``` npm start ```
+``` npm run start ```
 
 
 ## License
