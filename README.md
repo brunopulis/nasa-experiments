@@ -19,4 +19,4 @@ To run locally this project clone this repository with:
 
 ## License
 
- [GPL](./LICENSE)
+ [MIT](./LICENSE)
