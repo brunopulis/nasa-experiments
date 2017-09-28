@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brunopulis/nasa-experiments.svg?branch=master)](https://travis-ci.org/brunopulis/nasa-experiments)
+
 # Nasa Experiments
 
 Example to Connect Nasa API.
