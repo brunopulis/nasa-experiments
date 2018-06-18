@@ -1,12 +1,12 @@
 {
-  "name": "webpack-2.0-from-scratch",
+  "name": "nasa-experiments",
   "version": "2.0.0",
   "description": "Consulting Nasa API with axios",
   "main": "index.js",
   "scripts": {
     "build": "webpack --progress",
     "start": "webpack --progress && webpack-dev-server -d --hot --config webpack.config.js --watch --progress",
-    "production": "NODE_ENV=production webpack --progress"
+    "production": "NODE_ENV=development webpack --progress"
   },
   "author": "Bruno Pulis <bruno.pulis@gmail.com>",
   "license": "ISC",
