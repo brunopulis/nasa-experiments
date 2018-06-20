@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import AstronomyCard from './AstronomyCard'
-import axios from 'axios'
+import React, { Component } from 'react';
+import AstronomyCard from './AstronomyCard';
 
 class AstronomyContainer extends Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
       astronomy: []
@@ -12,22 +11,17 @@ class AstronomyContainer extends Component {
   }
 
   componentDidMount() {
-    const API_KEY  = 'cnvbe0cPs2FfVtm4BSKqWFxgdKa4i6EOrl8OCsxD'
-    const END_POINT = 'https://api.nasa.gov/planetary/apod?api_key='
-
-    axios.get(END_POINT + API_KEY)
-      .then( response => {
+    fetch('https://api.nasa.gov/planetary/apod?api_key=cnvbe0cPs2FfVtm4BSKqWFxgdKa4i6EOrl8OCsxD')
+      .then((response) => response.json())
+      .then((responseData) => {
         this.setState({
-          astronomy: response.data
-        })
-      })
-      .catch( error => {
-        console.log(error, 'failed to fetch data')
-      })
+          astronomy: responseData
+        });
+      });
   }
 
   render() {
-    const { astronomy } = this.state
+    const { astronomy } = this.state;
 
     return(
       <AstronomyCard data={ astronomy } />
@@ -35,4 +29,4 @@ class AstronomyContainer extends Component {
   }
 }
 
-export default AstronomyContainer
+export default AstronomyContainer;
