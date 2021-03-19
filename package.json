@@ -19,7 +19,7 @@
     "css-hot-loader": "1.4.4",
     "css-loader": "0.28.4",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
-    "file-loader": "0.11.2",
+    "file-loader": "6.2.0",
     "hawk": "7.1.2",
     "image-webpack-loader": "4.6.0",
     "node-sass": "4.13.1",
