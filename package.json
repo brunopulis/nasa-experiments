@@ -11,7 +11,7 @@
   "author": "Bruno Pulis <bruno.pulis@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "10.3.4",
+    "autoprefixer": "10.3.7",
     "babel-core": "6.26.3",
     "babel-loader": "8.2.2",
     "babel-preset-es2015": "6.24.1",
